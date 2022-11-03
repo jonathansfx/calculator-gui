@@ -15,5 +15,5 @@ function btnClicked() {
   let average = (A + B + C + D + E) / 5;
 
   //OUTPUT
-  let output = +document.getElementById("average");
+  document.getElementById("output").innerHTML = average;
 }
